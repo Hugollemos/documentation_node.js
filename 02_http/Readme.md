@@ -23,3 +23,10 @@ http.createServer(function(req,res){
 
 console.log("O servidor rodando!")
 ```
+verbos HTTP:
+Get: pegar dados de uma determinada entidade
+post: enviar dados
+put: atualizar uma entidade por completo
+delete: deletar um recurso especifico
+patch: atualizar um recurso parcialmente
+opition: retorna alguma informações a respeito do sistema
