@@ -1,11 +1,13 @@
+# HTTP://
+```
 cliente-> http:// -> servidor 
   <-        <-           <- 
+req        método     res
+```
 
-atraves do protocolo http envimos e recebemos os dados do servidor.
+modulo http já vem no node.js.
 
-modulo padrao que ja vem dentro do node é o http
-
-criando um servidor simples de http:
+### criando um servidor simples de http:
 ```
 var http = require('http');
 
@@ -13,7 +15,7 @@ http.createServer().listen(8080);
 
 console.log("O servidor rodando!")
 ```
-agora adicionando uma função com algumas coisas
+/////////////////////////////////
 ```
 var http = require('http');
 
@@ -23,10 +25,13 @@ http.createServer(function(req,res){
 
 console.log("O servidor rodando!")
 ```
-verbos HTTP:
-Get: pegar dados de uma determinada entidade
-post: enviar dados
-put: atualizar uma entidade por completo
-delete: deletar um recurso especifico
-patch: atualizar um recurso parcialmente
+#### verbos HTTP:
+Get: pegar dados de uma determinada entidade <br>
+post: enviar dados <br>
+put: atualizar uma entidade por completo <br>
+delete: deletar um recurso especifico <br>
+patch: atualizar um recurso parcialmente <br>
 opition: retorna alguma informações a respeito do sistema
+
+
+__Obs: módelo http obsoleto.__

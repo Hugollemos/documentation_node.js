@@ -1,4 +1,14 @@
-# utilizando parâmetros
+# Utilizando parâmetros
+
+Parâmetros resudamente, é ":/" depois de uma rota
+Ex:
+```
+              Parâmetros
+app.get('/ola/:cargo/:nome/:cor', function(req, res){
+  res.send(`Ola ${req.params.nome}`);
+});
+```
+``` 
 const express = require('express');
 const app = express();
 
@@ -21,3 +31,4 @@ app.get('/ola/:cargo/:nome/:cor', function(req, res){
 app.listen(8081, function(){
   console.log("servidor Rodando na url http://localhost:8081");
 });
+```
