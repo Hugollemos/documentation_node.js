@@ -1,6 +1,6 @@
 # Utilizando parâmetros
 
-Parâmetros resudamente, é ":/" depois de uma rota
+Parâmetros resudamente, é tudo depois de ":/" em uma rota. <br>
 Ex:
 ```
               Parâmetros

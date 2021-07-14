@@ -4,18 +4,7 @@ cliente-> http:// -> servidor
   <-        <-           <- 
 req        método     res
 ```
-
-modulo http já vem no node.js.
-
-### criando um servidor simples de http:
-```
-var http = require('http');
-
-http.createServer().listen(8080);
-
-console.log("O servidor rodando!")
-```
-/////////////////////////////////
+__criando um servidor simples com http:__
 ```
 var http = require('http');
 
@@ -32,6 +21,5 @@ put: atualizar uma entidade por completo <br>
 delete: deletar um recurso especifico <br>
 patch: atualizar um recurso parcialmente <br>
 opition: retorna alguma informações a respeito do sistema
-
 
 __Obs: módelo http obsoleto.__

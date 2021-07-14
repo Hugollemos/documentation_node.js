@@ -1,6 +1,6 @@
 # Middlewares 
 
-Irá  interceptar alguma ção entre a requisição e resposta, podendo executar qualquer código
+Irá  interceptar alguma ação entre a requisição e resposta, podendo executar qualquer código
 Requisição http > middleware > resposta
 
 ex de uso:
