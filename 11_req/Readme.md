@@ -2,8 +2,6 @@
 
 ```req.params``` contém parâmetros de rota (na parte do caminho da URL) e req.query contém os parâmetros de consulta de URL (depois de ?no URL).
 
-
-
 ## req.params
 Esta propriedade é um objeto que contém propriedades mapeadas para os “parâmetros” da rota nomeada . Por exemplo, se você tiver a rota /user/:name, a propriedade “nome” estará disponível como req.params.name. O padrão deste objeto é {}.
 ```
